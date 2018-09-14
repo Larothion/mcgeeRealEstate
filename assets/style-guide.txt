@@ -1,0 +1,6 @@
+
+Darker-dark-red: #4c0004
+lighter-dark-red: #793738
+
+Gray: #838383
+Dark-Gray: #3f3f3f
