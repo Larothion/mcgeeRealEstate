@@ -14,7 +14,9 @@
 </head>
 
 <body>
-    <div class="container">
+ <!-- navbar -->
+ <nav>
+    <div class="container" id='navbarTransparent'>
         <div class="row text-center py-1">
             <div class='col-md-2 col-sm-12 py-2'> <img src='../assets/images/sunchaseLogoTransparent.png' class='img-fluid'></div>
             <div class='col-md-2 col-sm-12 py-2'> </div>
@@ -28,9 +30,9 @@
             </div>
         </div>
     </div>
-    <!-- navbar -->
+
     <div class=" container ">
-        <nav class="navbar nav-pills navbar-toggleable-md navbar-inverse ">
+        <nav class="navbar nav-pills navbar-toggleable-md navbar-inverse">
 
             <button class="navbar-toggler text-right " data-toggle="collapse " data-target="#mainNav ">
                 <span class="navbar-toggler-icon "></span>
@@ -38,13 +40,13 @@
             <div class="collapse navbar-collapse justify-content-center " id="mainNav ">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link  mx-2 text-white" href="/index.html">Home</a>
-                        <div class="dropdown nav-item nav-link mx-2 active text-white"  style='cursor: pointer;'>
-                            <span>About Us</span>
-                            <div class="dropdown-content">
-                                <a class='navDropDown' href="/about-us.html">History</a><br>
-                                <a class='navDropDown' href="/mission.html">Mission</a>
-                            </div>
+                    <div class="dropdown nav-item nav-link mx-2 text-white active" style='cursor: pointer;'>
+                        <span>About Us</span>
+                        <div class="dropdown-content">
+                            <a class='navDropDown' href="/about-us.html">History</a><br>
+                            <a class='navDropDown' href="/mission.html">Mission</a>
                         </div>
+                    </div>
                     <a class="nav-item nav-link mx-2  text-white" href="/portfolio.html">Portfolio</a>
                     <a class="nav-item nav-link mx-2 text-white" href="/contact.html">Contact</a>
                 </div>
@@ -52,7 +54,8 @@
 
         </nav>
     </div>
-    <div class="container">
+  </nav>
+    <div class="container positionFromNav">
 
         <section class='row my-2 px-4'>
             <div class='col-sm-12'>
