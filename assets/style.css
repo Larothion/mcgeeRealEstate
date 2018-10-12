@@ -91,6 +91,13 @@ h2 {
 .mainHomeImage {
   border: 1px solid #e0e0e0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin: 0 auto;
+}
+
+.contactImage {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 500px;
   display: block;
   margin: 0 auto;
@@ -162,6 +169,8 @@ figcaption {
 
 .contactUsSection {
   background-color: #fff;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .footerSection {
   background-color: var(--primaryThemeDarkGray);
