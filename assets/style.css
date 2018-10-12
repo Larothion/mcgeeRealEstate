@@ -29,6 +29,10 @@ h2 {
   z-index: 99999;
 }
 
+.navMainImage {
+  padding: 0px;
+}
+
 #navbarTransparent {
   z-index: -1;
 }
@@ -65,7 +69,11 @@ h2 {
 }
 
 .positionFromNav {
-  margin-top: 200px;
+  margin-top: 310px;
+}
+
+.portfolioPositionFromNav {
+  margin-top: 340px;
 }
 
 .catchyOneLiner {
@@ -83,6 +91,9 @@ h2 {
 .mainHomeImage {
   border: 1px solid #e0e0e0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
 .smallerHomeImages {
@@ -180,10 +191,18 @@ figcaption {
   background-color: var(--primaryThemeLightRed);
 }
 
+.missionHeaders {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
 
 @media only screen and (max-width: 1198px) {
   .positionFromNav {
     margin-top: 250px;
+  }
+  .portfolioPositionFromNav {
+    margin-top: 400px;
   }
 }
 
