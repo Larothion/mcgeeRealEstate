@@ -35,6 +35,14 @@ h2 {
 
 #navbarTransparent {
   z-index: -1;
+
+}
+
+#navbarTransparentMobile {
+  z-index: -1;
+  max-width: 500px; 
+  padding: 0 50px 0 50px;
+  display: none;
 }
 
 .navDropDown {
@@ -205,7 +213,6 @@ figcaption {
   text-decoration-style: double;
 }
 
-
 @media only screen and (max-width: 1198px) {
   .positionFromNav {
     margin-top: 250px;
@@ -218,6 +225,20 @@ figcaption {
 @media only screen and (max-width: 991px) {
   #navbarTransparent {
     display: none;
+  }
+  #navbarTransparentMobile {
+    display: block;
+  }
+  .positionFromNav {
+    margin-top: 375px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .contactImage {
+    max-width: 300px;
   }
 }
 
